@@ -36,7 +36,7 @@ export default function DashboardPage() {
   return (
     <div className="p-6 animate-fade-in">
       <PageHeader
-        title="Overview Dashboard"
+        title="Overview Dashboard petty cash"
         subtitle="Company-wide petty cash health & operational summary"
         actions={<ExportCSVButton data={exportData} filename="dashboard-summary.csv" />}
       />
